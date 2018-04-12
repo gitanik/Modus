@@ -83,13 +83,11 @@ html, body, ul, h1, h2, h3, h4, h5, h6 {
 .intro-button {
 	text-align: center;
 	padding-top: 45px;
-}
-.intro-button  {
-	font-size: 1.3em;
+	display: inline-block;
+	font-size: 1.3rem;
 	background-color: #E75926;
 	padding: 12px 24px;
 	border-radius: 3%;
-	margin-left: 440px;
 }
 
 .intro-button:hover {
