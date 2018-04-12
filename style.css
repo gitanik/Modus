@@ -4,6 +4,7 @@ html, body, ul, h1, h2, h3, h4, h5, h6 {
 }
 .navbar {
 	background-color: #333;
+	min-height: 55px;
 }
 
 @media only screen and (min-width: 1020px) {
@@ -32,7 +33,13 @@ html, body, ul, h1, h2, h3, h4, h5, h6 {
 }
 .logo {
 	float: left;
-	padding: 15px 179px 15px 0;
+	padding: 15px;
+}
+
+@media only screen and (min-width: 1020px) {
+	.logo {
+		margin-right: 179px;
+	}
 }
 .logo span {
 	color: #fff;
