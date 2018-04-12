@@ -9,5 +9,9 @@ $(document).ready(function() {
 	$('.nav-list li').click(function(){
 		$('.nav-list li').removeClass('active');
 		$(this).addClass('active');
+
+		$('.switch-section.active').removeClass('active');
+		$('.switch-section.section-'+$(this).data('show')).addClass('active');
+		
 	})
 });

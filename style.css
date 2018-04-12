@@ -157,3 +157,13 @@ html, body, ul, h1, h2, h3, h4, h5, h6 {
 .centered {
 	text-align: center;
 }
+
+.switch-section {
+	max-height: 0;
+	transition: max-height 0.3s ease-in-out;
+	overflow: hidden;
+}
+
+.switch-section.active {
+	max-height: 500px;
+}
