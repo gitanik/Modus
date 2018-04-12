@@ -28,7 +28,8 @@ html, body, ul, h1, h2, h3, h4, h5, h6 {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.nav-list ul li a:hover {
+.nav-list ul li a:hover,
+.nav-list ul li.active a {
 	color: #E75926;
 }
 .logo {
