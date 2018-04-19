@@ -1,6 +1,7 @@
 html, body, ul, h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 .navbar {
 	background-color: #333;
@@ -208,6 +209,101 @@ html, body, ul, h1, h2, h3, h4, h5, h6 {
     content: "";
     clear: both;
     display: table;
+}
+@media only screen and (max-width: 1023px) {
+	.img-wrapper {
+		width: 100%;
+		text-align: center;
+	}
+	.services-wrapper {
+		max-width: 100%;
+	}
+	.article-intro-wrapper {
+		margin-left: 210px;
+	}
+	.container {
+		width: 586px;
+	}
+	.service-box-wrapper {
+		text-align: center;
+	}
+	.team-emp {
+		margin-left: 20px;
+	}
+	.references .reference-box {
+		margin: o auto;
+		float: none;
+		width: auto;
+	}
+	.references .references-wrapper {
+		min-height: 630px;
+	}
+	.references h2 {
+		margin-left: 7%;
+	}
+	.title-article-hr {
+		margin-left: 50%;
+	}
+	.team-emp {
+		margin-left: 10%;
+	}
+	.portfolio-box-wrapper {
+		margin-left: 7%;
+	}
+	.portfolio ul li {
+		margin-left: 0 !important;
+	}
+	form .message-text {
+		width: 482px;
+	}
+	.contact input {
+		margin-left: 87px !important;
+		margin-bottom: 10px;
+	}
+	.img-wrapper {
+		width: auto;
+	}
+	.article-intro-wrapper {
+		margin-left: 20px;
+	}
+	.work-area {
+		float: none;
+		padding-bottom: 20px;
+	}
+	.article-intro .title-article {
+		margin-right: 33%;
+	}
+	.article-intro hr {
+		margin-left: 31%;
+	}
+	.intro-button {
+		margin-left: 235px;
+	}
+	.header-nav .svg-inline--fa {
+		padding: 0 10px 0 0;
+	}
+	.logo span {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 689px) {
+	.img-wrapper, .work-area {
+		display: none;
+	}
+	.article-intro-wrapper {
+		margin-left: 18%;
+	}
+	.article-intro .title-article {
+		padding-top: 50px;
+	}
+	.ham {
+		margin: 10px 50px;
+	}
+}
+@media only screen and (max-width: 597px) {
+	.container {
+		width: 560px;
+	}
 }
 .services-wrapper {
 	background: url("images/services-bg.jpg");
